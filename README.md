@@ -1,22 +1,19 @@
-# CẤU TRÚC THƯ MỤC NÂNG CAO CHO REACTJS 📂
+# CẤU TRÚC THƯ MỤC REACTJS 
 
-## /src
-Thư mục gốc, nơi chứa toàn bộ mã nguồn của ứng dụng. Đây là trái tim của dự án ReactJS, nơi mọi logic và giao diện được xây dựng.
+## /src: Thư mục gốc
 
-### /assets
+### /assets: Đây là nơi bạn đặt các tệp không thay đổi trong suốt quá trình chạy ứng dụng.
 - **images**:
 - **svg**:
 - **css**: trong css thì sẽ tách ra nhiều file và import vào 1 file `index.scss`
 - **pdf**:
 - **fonts**:
 
-Đây là nơi bạn đặt các tệp không thay đổi trong suốt quá trình chạy ứng dụng.
-
 ### /components
 Đặt tên thư mục đúng chức năng và viết hoa chữ đầu của từng từ ví dụ `LanguageSwitcher`.
 
 ### /layouts
-Gồm các thành phần định hình cấu trúc ứng dụng, như header, footer, hoặc các trình bao (layout wrapper). Đây là nơi bạn quản lý giao diện chung cho toàn bộ ứng dụng.
+Gồm các thành phần định hình cấu trúc ứng dụng, như header, footer, hoặc các trình bao (layout wrapper).
 
 ### /utils
 - **constants**: thư mục chứa các hằng số dùng chung cho toàn bộ project
