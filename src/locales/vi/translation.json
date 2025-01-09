@@ -1,0 +1,240 @@
+{
+  "exceptions": {
+    "noData": "Không có dữ liệu"
+  },
+  "companyInfo": {
+    "name": "CÔNG TY CỔ PHẦN AIPT VIỆT NAM, VIETNAM AIPT., JSC",
+    "headOffice": "Trụ sở: Số 86, Đường 3.6 KĐT Gamuda Gardens, Trần Phú, Hoàng Mai, Hà Nội",
+    "branchOffice": "PGD: P10, Tầng 3, CT2B Gelexia Riverside, 885 Tam Trinh, Hoàng Mai, Hà Nội"
+  },
+  "warning": {
+    "smokeAndFire": "Phát hiện khói lửa",
+    "weapon": "Phát hiện vũ khí",
+    "face": "Phát hiện khuôn mặt",
+    "licensePlate": "Phát hiện biển số xe"
+  },
+  "errorMessage": {
+    "nameRequired": "Vui lòng nhập tên!",
+    "emailRequired": "Vui lòng nhập email!",
+    "emailInvalid": "Email không hợp lệ!",
+    "phoneRequired": "Vui lòng nhập số điện thoại!",
+    "passwordRequired": "Vui lòng nhập mật khẩu!",
+    "RTSPRequired": "Vui lòng nhập RTSP!",
+    "oldPasswordRequired": "Vui lòng nhập mật khẩu cũ!",
+    "newPasswordRequired": "Mật khẩu mới phải có ít nhất 6 ký tự",
+    "otpSelectMode": "Vui lòng chọn phương thức nhận OTP!",
+    "emailOrPhoneRequired": "Vui lòng nhập email hoặc số điện thoại!",
+    "getOTP": "Lấy OTP",
+    "nameDuplicate": "Tên đã tồn tại"
+  },
+  "message": {
+    "success": "Thành công",
+    "error": "Đã xảy ra lỗi, vui lòng thử lại sau.",
+    "inputRequired": "Vui lòng kiểm tra các trường bắt buộc",
+    "confirmAction": "Bạn có chắc chắn muốn thực hiện hành động này?",
+    "confirm": "Xác nhận",
+    "emailOrPhone": "Email hoặc điện thoại",
+    "cancel": "Hủy",
+    "warningMessageRecognition": "Cảnh báo!!!"
+  },
+  "serverMessage": {
+    "success": {
+      "login": "Đăng nhập thành công",
+      "getOTP": "Lấy OTP thành công",
+      "changePassword": "Đổi mật khẩu thành công",
+      "memberManagement": {
+        "addMember": "Thêm thành viên thành công",
+        "editMember": "Cập nhật thành viên thành công",
+        "deleteMember": "Xóa thành viên thành công",
+        "memberNotFound": "Không tìm thấy thành viên"
+      },
+      "search": {
+        "progress": "Hình ảnh đang được xử lý",
+        "finish": "Tìm kiếm thành công"
+      },
+      "createProject": "Tạo dự án thành công",
+      "updateProject": "Cập nhật dự án thành công",
+      "deleteProject": "Xóa dự án thành công",
+      "reTranscribe": "Phân tích lại dự án thành công",
+      "folderReTranscribe": "Phân tích lại thư mục thành công",
+      "camera": {
+        "addCamera": "Thêm camera thành công",
+        "editCamera": "Cập nhật camera thành công",
+        "deleteCamera": "Xóa camera thành công",
+        "updateFeatureAnalyze": "Cập nhật tính năng phân tích thành công"
+      },
+      "drawPolygon": "Cập nhật vùng cảnh báo thành công",
+      "updateWarningZone": "Cập nhật vùng cảnh báo thành công",
+      "user": {
+        "addUser": "Tạo tài khoản thành công",
+        "lockUser": "Khóa tài khoản thành công",
+        "deleteUser": "Xóa tài khoản thành công",
+        "update": "Cập nhật tài khoản thành công"
+      }
+    },
+    "error": {
+      "wrongUsernameOrPassword": "Sai tên người dùng hoặc mật khẩu",
+      "wrongPassword": "Sai mật khẩu",
+      "emailOrPasswordExisted": "Email hoặc mật khẩu đã tồn tại",
+      "userNotFound": "Không tìm thấy người dùng",
+      "accountLocked": "Tài khoản này đã bị khóa",
+      "login": "Đăng nhập thất bại",
+      "wrongOTP": "OTP không chính xác!",
+      "notExistedOrLockedAccount": "Tài khoản không tồn tại hoặc đã bị khóa",
+      "memberManagement": {
+        "addMember": "Thêm thành viên thất bại",
+        "editMember": "Cập nhật thành viên thất bại",
+        "deleteMember": "Xóa thành viên thất bại"
+      },
+      "unauthorized": "Bạn không có quyền thực hiện hành động này",
+      "camera": {
+        "addCamera": "Thêm camera thất bại",
+        "editCamera": "Cập nhật camera thất bại",
+        "deleteCamera": "Xóa camera thất bại"
+      },
+      "user": {
+        "addUser": "Tạo tài khoản thất bại",
+        "lockUser": "Khóa tài khoản thất bại",
+        "deleteUser": "Xóa tài khoản thất bại",
+        "userNotFound": "Không tìm thấy tài khoản"
+      },
+      "RTSPExist": "RTSP đã tồn tại",
+      "serverError": "Lỗi máy chủ"
+    }
+  },
+  "enum": {
+    "roles": {
+      "1": "Quản trị viên",
+      "2": "Người dùng"
+    },
+    "status": {
+      "1": "Hoạt động",
+      "0": "Đã khóa"
+    },
+    "statusText": {
+      "1": "Hoạt động",
+      "0": "Đã khóa"
+    },
+    "searchType": {
+      "object": "Đối tượng",
+      "projectName": "Tên dự án"
+    },
+    "projectStatus": {
+      "completed": "Đã hoàn thành",
+      "inProgress": "Đang tiến hành",
+      "pending": "Chờ xử lý"
+    },
+    "file": {
+      "fileAnalysis": "Phân tích tệp",
+      "liveAnalysis": "Nhận diện trực tiếp"
+    }
+  },
+  "common": {
+    "enterSearchKeyword": "Nhập từ khóa tìm kiếm",
+    "hello": "Xin chào",
+    "personalInformation": "Thông tin cá nhân",
+    "search": "Tìm kiếm",
+    "save": "Lưu",
+    "pause": "Tạm dừng",
+    "resume": "Tiếp tục",
+    "start": "Bắt đầu",
+    "title": "Tiêu đề",
+    "downloadAudio": "Tải xuống âm thanh",
+    "fileName": "Tên tệp",
+    "description": "Mô tả",
+    "filter": "Lọc",
+    "results": "Kết quả",
+    "result": "Kết quả",
+    "exportPDF": "Xuất PDF",
+    "loading": "Đang tải...",
+    "noData": "Không có dữ liệu",
+    "unknown": "Không xác định",
+    "close": "Đóng",
+    "add": "Thêm",
+    "addName": "Thêm tên",
+    "details": "Chi tiết",
+    "detail": "Chi tiết",
+    "time": "Thời gian",
+    "send": "Gửi",
+    "edit": "Chỉnh sửa",
+    "status": "Trạng thái",
+    "addUser": "Thêm người dùng",
+    "lock": "Khóa",
+    "unlock": "Mở khóa",
+    "delete": "Xóa",
+    "downloadReport": "Tải xuống báo cáo",
+    "date": "Ngày",
+    "expand": "Mở rộng",
+    "collapse": "Thu gọn"
+  },
+  "routesTitle": {
+    "login": "Đăng nhập",
+    "forgotPassword": "Quên mật khẩu",
+    "notFound": "Không tìm thấy",
+    "changePassword": "Đổi mật khẩu",
+    "cameraManagement": "Quản lý camera",
+    "profile": "Hồ sơ",
+    "logout": "Đăng xuất",
+    "language": "Ngôn ngữ"
+  },
+  "homePage": {
+    "createdAt": "Ngày tạo"
+  },
+  "profile": {
+    "time": "Thời gian",
+    "personalInformation": "Thông tin cá nhân",
+    "fullName": "Họ và tên",
+    "email": "Email",
+    "phoneNumber": "Số điện thoại",
+    "status": "Trạng thái",
+    "objectType": "Loại đối tượng",
+    "telegramID": "ID Telegram",
+    "telegramName": "Tên Telegram",
+    "accountCreationTime": "Thời gian tạo tài khoản",
+    "password": "Mật khẩu",
+    "language": "Ngôn ngữ",
+    "objectTypes": {
+      "administrator": "Quản trị viên",
+      "user": "Người dùng"
+    },
+    "languages": {
+      "vietnamese": "Tiếng Việt",
+      "english": "Tiếng Anh"
+    }
+  },
+  "report": {
+    "empty": "Không có dữ liệu",
+    "time": "Thời gian",
+    "speaker": "Người nói",
+    "content": "Nội dung",
+    "title": "BÁO CÁO PHÂN TÍCH",
+    "creationTime": "THỜI GIAN TẠO",
+    "quantity": "SỐ LƯỢNG",
+    "project": "DỰ ÁN"
+  },
+  "deleteAccount": {
+    "tooltip": "Xóa thành viên"
+  },
+  "uploadForm": {
+    "title": "Tải lên",
+    "chooseFile": "Chọn tệp",
+    "chooseFolder": "Chọn thư mục",
+    "note": "Ghi chú",
+    "notes": {
+      "qualityDependsOnAudioQuality": "Chất lượng phân tích phụ thuộc vào chất lượng âm thanh",
+      "accuracyIncreasesWithCallRecordingType": "Độ chính xác cao hơn với các bản ghi cuộc gọi hoặc cuộc họp",
+      "limitSimilarVoices": "Giới hạn giọng nói chồng lấn để có kết quả tốt nhất",
+      "folderEmpty": "Nếu thư mục được tải lên trống, thư mục đó sẽ không được tạo"
+    },
+    "speakerClassification": "Phân loại người nói",
+    "language": "Ngôn ngữ",
+    "languages": {
+      "vietnamese": "Tiếng Việt",
+      "english": "Tiếng Anh"
+    },
+    "yes": "Có",
+    "no": "Không",
+    "upload": "Tải lên",
+    "close": "Đóng"
+  }
+}

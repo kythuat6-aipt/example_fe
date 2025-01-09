@@ -1,0 +1,244 @@
+{
+  "exceptions": {
+    "noData": "No data"
+  },
+  "companyInfo": {
+    "name": "AIPT VIETNAM JOINT STOCK COMPANY, VIETNAM AIPT., JSC",
+    "headOffice": "Head Office: 86, Road 3.6, Gamuda Gardens, Tran Phu, Hoang Mai, Hanoi",
+    "branchOffice": "Branch: P10, 3rd Floor, CT2B Gelexia Riverside, 885 Tam Trinh, Hoang Mai, Hanoi"
+  },
+  "warning": {
+    "smokeAndFire": "Fire and smoke detection",
+    "weapon": "Weapon detection",
+    "face": "Face recognition",
+    "licensePlate": "License plate recognition"
+  },
+  "errorMessage": {
+    "nameRequired": "Please enter name!",
+    "emailRequired": "Please enter email!",
+    "emailInvalid": "Invalid email!",
+    "phoneRequired": "Please enter phone!",
+    "passwordRequired": "Please enter password!",
+    "RTSPRequired": "Please enter RTSP!",
+    "oldPasswordRequired": "Please enter old password!",
+    "newPasswordRequired": "New password must be at least 6 characters",
+    "otpSelectMode": "Please select OTP receive mode!",
+    "emailOrPhoneRequired": "Please enter email or phone!",
+    "getOTP": "Get OTP",
+    "nameDuplicate": "Name already exists"
+  },
+  "message": {
+    "success": "Success",
+    "error": "An error occurred, please try again later.",
+    "inputRequired": "Please check the required fields",
+    "confirmAction": "Are you sure you want to perform this action?",
+    "confirm": "Confirm",
+    "emailOrPhone": "Email or phone",
+    "cancel": "Cancel",
+    "warningMessageRecognition": "Warning!!!"
+  },
+  "serverMessage": {
+    "success": {
+      "login": "Login successful",
+      "getOTP": "OTP retrieved successfully",
+      "changePassword": "Password changed successfully",
+      "memberManagement": {
+        "addMember": "Member added successfully",
+        "editMember": "Member updated successfully",
+        "deleteMember": "Member deleted successfully",
+        "memberNotFound": "Member not found"
+      },
+      "search": {
+        "progress": "Image is being processed",
+        "finish": "Search successful"
+      },
+      "createProject": "Project created successfully",
+      "updateProject": "Project updated successfully",
+      "deleteProject": "Project deleted successfully",
+      "reTranscribe": "Project reanalysis successful",
+      "folderReTranscribe": "Folder reanalysis successful",
+      "camera": {
+        "addCamera": "Camera added successfully",
+        "editCamera": "Camera updated successfully",
+        "deleteCamera": "Camera deleted successfully",
+        "updateFeatureAnalyze": "Feature analyze updated successfully"
+      },
+      "drawPolygon": "Warning zone updated successfully",
+      "updateWarningZone": "Warning zone updated successfully",
+      "user": {
+        "addUser": "Account created successfully",
+        "lockUser": "Account locked successfully",
+        "deleteUser": "Account deleted successfully",
+        "update": "Account updated successfully"
+      }
+    },
+    "error": {
+      "wrongUsernameOrPassword": "Incorrect username or password",
+      "wrongPassword": "Incorrect password",
+      "emailOrPasswordExisted": "Email or password already exists",
+      "userNotFound": "User not found",
+      "accountLocked": "This account has been locked",
+      "login": "Login failed",
+      "wrongOTP": "Incorrect OTP!",
+      "notExistedOrLockedAccount": "Account does not exist or has been locked",
+      "memberManagement": {
+        "addMember": "Failed to add member",
+        "editMember": "Failed to update member",
+        "deleteMember": "Failed to delete member"
+      },
+      "unauthorized": "You do not have permission to perform this action",
+      "camera": {
+        "addCamera": "Failed to add camera",
+        "editCamera": "Failed to update camera",
+        "deleteCamera": "Failed to delete camera"
+      },
+      "user": {
+        "addUser": "Failed to create account",
+        "lockUser": "Failed to lock account",
+        "deleteUser": "Failed to delete account",
+        "userNotFound": "Account not found"
+      },
+      "RTSPExist": "RTSP already exists",
+      "serverError": "Server error"
+    }
+  },
+  "enum": {
+    "roles": {
+      "1": "Administrator",
+      "2": "User"
+    },
+    "status": {
+      "1": "Active",
+      "0": "Locked"
+    },
+    "statusText": {
+      "1": "Active",
+      "0": "Locked"
+    },
+    "searchType": {
+      "object": "Object",
+      "projectName": "Name"
+    },
+    "projectStatus": {
+      "completed": "Completed",
+      "inProgress": "In Progress",
+      "pending": "Pending"
+    },
+    "file": {
+      "fileAnalysis": "File Analysis",
+      "liveAnalysis": "Live Analysis"
+    }
+  },
+  "common": {
+    "enterSearchKeyword": "Enter search keyword",
+    "hello": "Hello",
+    "personalInformation": "Personal Information",
+    "search": "Search",
+    "save": "Save",
+    "pause": "Pause",
+    "resume": "Resume",
+    "start": "Start",
+    "title": "Title",
+    "downloadAudio": "Download Audio",
+    "fileName": "File Name",
+    "description": "Description",
+    "filter": "Filter",
+    "results": "Results",
+    "result": "Result",
+    "exportPDF": "Export PDF",
+    "loading": "Loading...",
+    "noData": "No data",
+    "unknown": "Unknown",
+    "close": "Close",
+    "add": "Add",
+    "addName": "Add name",
+    "details": "Details",
+    "detail": "Detail",
+    "time": "Time",
+    "send": "Submit",
+    "edit": "Edit",
+    "status": "Status",
+    "addUser": "Add user",
+    "lock": "Lock",
+    "unlock": "Unlock",
+    "delete": "Delete",
+    "downloadReport": "Download Report",
+    "date": "Date",
+    "expand": "Expand",
+    "collapse": "Collapse"
+  },
+
+  "routesTitle": {
+    "login": "Login",
+    "forgotPassword": "Forgot Password",
+    "notFound": "Not Found",
+    "changePassword": "Change Password",
+    "cameraManagement": "Camera Management",
+    "profile": "Profile",
+    "logout": "Log out",
+    "language": "Language"
+  },
+  "homePage": {
+    "createdAt": "Created At"
+  },
+  "profile": {
+    "time": "Time",
+    "personalInformation": "Personal Information",
+    "fullName": "Full Name",
+    "email": "Email",
+    "phoneNumber": "Phone Number",
+    "status": "Status",
+    "objectType": "Object Type",
+    "telegramID": "Telegram ID",
+    "telegramName": "Telegram Name",
+    "accountCreationTime": "Account Creation Time",
+    "password": "Password",
+    "language": "Language",
+    "objectTypes": {
+      "administrator": "Administrator",
+      "user": "User"
+    },
+    "languages": {
+      "vietnamese": "Vietnamese",
+      "english": "English"
+    }
+  },
+  "report": {
+    "empty": "No data",
+    "time": "Time",
+    "speaker": "Speaker",
+    "content": "Content",
+    "title": "ANALYSIS REPORT",
+    "creationTime": "CREATION TIME",
+    "quantity": "QUANTITY",
+    "project": "PROJECT"
+  },
+  "deleteAccount": {
+    "tooltip": "Delete member"
+  },
+  "uploadForm": {
+    "title": "Upload",
+    "chooseFile": "Choose File",
+    "chooseFolder": "Choose Folder",
+    "note": "Note",
+    "notes": {
+      "qualityDependsOnAudioQuality": "Analysis quality depends on audio quality",
+      "accuracyIncreasesWithCallRecordingType": "Accuracy is higher with call or meeting recordings",
+      "limitSimilarVoices": "Limit overlapping voices to get the best results",
+      "folderEmpty": "If the uploaded folder is empty, that folder will not be created"
+    },
+    "speakerClassification": "Speaker Classification",
+    "language": "Language",
+    "languages": {
+      "vietnamese": "Vietnamese",
+      "english": "English"
+    },
+    "yes": "Yes",
+    "no": "No",
+    "upload": "Upload",
+    "close": "Close"
+  }
+}
+
+
+

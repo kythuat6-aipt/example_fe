@@ -1,0 +1,1 @@
+export const AIPT_WEB_TOKEN = "AIPT_WEB_TOKEN";
